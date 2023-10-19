@@ -29,7 +29,7 @@ const Header = () => {
               className="w-full h-full rounded-full"
             />
           </div>
-          <MenuItem>
+          <MenuItem dotColor="#0369a1" isActive>
             <FiShoppingCart className="text-lg ml-1 mr-1.5" />
           </MenuItem>
         </ul>
