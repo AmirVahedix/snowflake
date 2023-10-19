@@ -1,8 +1,10 @@
+import { FiShoppingCart } from "react-icons/fi";
+
 import Menu from "./Menu";
 import MenuItem from "./MenuItem";
-import { FiShoppingCart } from "react-icons/fi";
-import ProfileImage from "../../assets/profile.jpg";
 import Logo from "./Logo";
+
+import ProfileImage from "../../assets/profile.jpg";
 
 const Header = () => {
   return (
