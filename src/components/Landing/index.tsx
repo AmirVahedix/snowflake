@@ -1,4 +1,5 @@
 import { BsCurrencyDollar } from "react-icons/bs";
+
 import Purchase from "./Purchase";
 
 const Landing = () => {
