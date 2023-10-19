@@ -21,15 +21,15 @@ const Header = () => {
             Summer Collection
           </span>
         </p>
-        <ul className="flex h-12 items-center -space-x-[2px]">
-          <div className="border-2 border-gray-300 rounded-full h-12 p-2">
+        <ul className="flex h-14 items-center -space-x-[1.5px]">
+          <div className="border-2 border-gray-300 rounded-full w-12  h-14 p-2">
             <img
               src={ProfileImage}
               alt="Amir Vahedi"
-              className="w-full h-full rounded-full"
+              className="w-full h-full rounded-full object-cover"
             />
           </div>
-          <MenuItem dotColor="#0369a1" isActive>
+          <MenuItem dotColor="#0369a1" isActive className="h-14">
             <FiShoppingCart className="text-lg ml-1 mr-1.5" />
           </MenuItem>
         </ul>
