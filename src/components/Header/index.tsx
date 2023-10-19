@@ -1,20 +1,15 @@
-import LogoImage from "../../assets/logo.png";
 import Menu from "./Menu";
 import MenuItem from "./MenuItem";
 import { FiShoppingCart } from "react-icons/fi";
 import ProfileImage from "../../assets/profile.jpg";
+import Logo from "./Logo";
 
 const Header = () => {
   return (
     <header className="flex justify-between items-center">
-      <div className="grow flex items-center gap-4 ">
-        <img src={LogoImage} alt="SnowFlake" className="w-8" />
-        <p className="text-2xl">SnowFlake</p>
-      </div>
+      <Logo />
       <div className="grow flex items-center justify-between">
-        <div className="flex items-center justify-between">
-          <Menu />
-        </div>
+        <Menu />
         <p className="flex items-center gap-1 text-sm text-black/70">
           <span className="mt-1 text-xs">*</span>
           <span className="underline underline-offset-1 decoration-zinc-300">
