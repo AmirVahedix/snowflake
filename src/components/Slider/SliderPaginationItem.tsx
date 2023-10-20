@@ -1,9 +1,15 @@
 import { BsCurrencyDollar } from "react-icons/bs";
 import { FiArrowRight } from "react-icons/fi";
 
-const SliderPaginationItem = ({ image }: { image: string }) => {
+const SliderPaginationItem = ({
+  image,
+  onClick,
+}: {
+  image: string;
+  onClick: () => void;
+}) => {
   return (
-    <div className="flex flex-col cursor-pointer">
+    <div className="flex flex-col cursor-pointer" onClick={onClick}>
       <img
         src={image}
         className="aspect-square object-cover rounded-lg"
