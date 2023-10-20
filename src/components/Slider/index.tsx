@@ -4,6 +4,8 @@ import SliderActions from "./SliderActions";
 import SliderNavigation from "./SliderNavigation";
 import SliderRatings from "./SliderRatings";
 import SliderAlbum from "./SliderAlbum";
+import SliderTitle from "./SliderTitle";
+
 import Image1 from "../../assets/sofa/1.jpg";
 import Image2 from "../../assets/sofa/2.jpg";
 import Image3 from "../../assets/sofa/3.jpg";
@@ -44,6 +46,7 @@ const Slider = () => {
       <SliderNavigation />
       <SliderRatings />
       <SliderAlbum />
+      <SliderTitle />
     </div>
   );
 };
