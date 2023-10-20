@@ -2,6 +2,7 @@ import { BsCurrencyDollar } from "react-icons/bs";
 
 import Purchase from "./Purchase";
 import Slider from "../Slider";
+import SliderPagination from "../Slider/SliderPagination";
 
 const Landing = () => {
   return (
@@ -21,6 +22,7 @@ const Landing = () => {
           more clear and chilly, just like your mom loves"
         </p>
         <Purchase />
+        <SliderPagination />
       </div>
       <Slider />
     </main>
