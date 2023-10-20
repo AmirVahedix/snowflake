@@ -3,6 +3,7 @@ import { useState } from "react";
 import SliderActions from "./SliderActions";
 import SliderNavigation from "./SliderNavigation";
 import SliderRatings from "./SliderRatings";
+import SliderAlbum from "./SliderAlbum";
 import Image1 from "../../assets/sofa/1.jpg";
 import Image2 from "../../assets/sofa/2.jpg";
 import Image3 from "../../assets/sofa/3.jpg";
@@ -14,7 +15,7 @@ import Image7 from "../../assets/sofa/7.jpg";
 const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7];
 
 const Slider = () => {
-  const [currentSlide] = useState<number>(6);
+  const [currentSlide] = useState<number>(5);
 
   return (
     <div className="relative">
@@ -42,6 +43,7 @@ const Slider = () => {
       <SliderActions />
       <SliderNavigation />
       <SliderRatings />
+      <SliderAlbum />
     </div>
   );
 };

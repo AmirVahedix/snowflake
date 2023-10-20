@@ -5,7 +5,7 @@ import Slider from "../Slider";
 
 const Landing = () => {
   return (
-    <main className="mt-16 grid grid-cols-2">
+    <main className="mt-16 grid grid-cols-2 pr-12">
       <div className="flex flex-col">
         <h1 className="text-9xl">SnowFlake</h1>
         <div className="mt-10 flex items-center gap-3">
