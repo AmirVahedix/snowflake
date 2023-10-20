@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import SliderActions from "./SliderActions";
 import SliderNavigation from "./SliderNavigation";
+import SliderRatings from "./SliderRatings";
 import Image1 from "../../assets/sofa/1.jpg";
 import Image2 from "../../assets/sofa/2.jpg";
 import Image3 from "../../assets/sofa/3.jpg";
@@ -13,7 +14,7 @@ import Image7 from "../../assets/sofa/7.jpg";
 const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7];
 
 const Slider = () => {
-  const [currentSlide, setCurrentSlide] = useState<number>(6);
+  const [currentSlide] = useState<number>(6);
 
   return (
     <div className="relative">
@@ -32,7 +33,6 @@ const Slider = () => {
             stroke-width="1.6"
           />
         </svg>
-
         <img
           src={images[currentSlide]}
           className="absolute top-0 left-0 -z-10 object-cover object-center w-full h-full rounded-t-[45px] rounded-bl-[45px] rounded-br-[100px]"
@@ -41,6 +41,7 @@ const Slider = () => {
       </div>
       <SliderActions />
       <SliderNavigation />
+      <SliderRatings />
     </div>
   );
 };
