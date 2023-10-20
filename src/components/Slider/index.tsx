@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import SliderActions from "./SliderActions";
+import SliderNavigation from "./SliderNavigation";
 import Image1 from "../../assets/sofa/1.jpg";
 import Image2 from "../../assets/sofa/2.jpg";
 import Image3 from "../../assets/sofa/3.jpg";
@@ -39,6 +40,7 @@ const Slider = () => {
         />
       </div>
       <SliderActions />
+      <SliderNavigation />
     </div>
   );
 };
